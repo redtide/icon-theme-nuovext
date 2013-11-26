@@ -1,0 +1,15 @@
+Original author of nuoveXT2 icon theme:
+  Alexandre Moore (saki) <http://sa-ki.deviantart.com/>
+  http://www.gnome-look.org/content/show.php/nuoveXT+2?content=56625
+  Licensed under GPL
+
+Hong Jen Yee (PCMan) <pcman.tw@gmail.com> did following modifications:
+  * Optimize on-disk size
+  * Replace duplicated files with symlinks
+  * Rename icons with old names according to freedesktop.org icon naming specification.
+
+Andrea Zanellato:
+  * Changed version to 2.3
+  * Removed Firefox and Thunderbird icons
+  * Replaced audio-volume and window-close icons with those included in
+    http://deviantdark.deviantart.com/art/Oxygen-Refit-70199755 icon set
