@@ -3825,8 +3825,9 @@ install-data-hook:
 	$(LN_S) -f x-office-document.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/mimetypes/gnome-mime-application-vnd.oasis.opendocument.text.png
 	$(LN_S) -f users.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/apps/config-users.png
 	$(LN_S) -f gnome-screenshot.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/apps/gnome-panel-screenshot.png
-	$(LN_S) -f utilities-system-monitor.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/apps/gnome-monitor.png
+	$(LN_S) -f ../actions/system-log-out.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/apps/gnome-logout.png
 	$(LN_S) -f gnome-app-install.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/apps/gnome-settings-default-applications.png
+	$(LN_S) -f utilities-system-monitor.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/apps/gnome-monitor.png
 	$(LN_S) -f rhythmbox.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/apps/music-player.png
 	$(LN_S) -f rhythmbox.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/apps/rhythmbox-tray-icon.png
 	$(LN_S) -f preferences-system-windows.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/apps/kwin.png
