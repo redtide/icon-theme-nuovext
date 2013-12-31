@@ -2,7 +2,6 @@ EXTRA_DIST=AUTHORS COPYING
 
 dist-hook:
 	cp -raf nuoveXT23 $(distdir)/nuoveXT23
-	rm -rf `find $(distdir)/nuoveXT23 -name '*.svn'`
 
 uninstall-hook:
 	rm -rf $(DESTDIR)$(datadir)/icons/nuoveXT23
