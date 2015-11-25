@@ -1,14 +1,12 @@
-EXTRA_DIST=AUTHORS COPYING
-
-dist-hook:
-	cp -raf nuoveXT23 $(distdir)/nuoveXT23
+EXTRA_DIST = AUTHORS COPYING nuoveXT23
 
 uninstall-hook:
 	rm -rf $(DESTDIR)$(datadir)/icons/nuoveXT23
 
 install-data-hook:
 	$(mkdir_p) $(DESTDIR)$(datadir)/icons
-	cp -raf --no-preserve=ownership nuoveXT23 $(DESTDIR)$(datadir)/icons
+	cp -raf --no-preserve=ownership $(top_srcdir)/nuoveXT23 $(DESTDIR)$(datadir)/icons
+	chmod u+w $(DESTDIR)$(datadir)/icons/nuoveXT23{,/*,/*/*}
 	$(LN_S) -f user-desktop.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/places/desktop.png
 	$(LN_S) -f user-desktop.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/places/gnome-fs-desktop.png
 	$(LN_S) -f folder-saved-search.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/places/application-x-gnome-saved-search.png
