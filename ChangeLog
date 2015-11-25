@@ -1,5 +1,13 @@
 # 0.1
 
-* Logon / session icons.
-* XDG places icons.
-* Wine folder icon ("Browse C: Drive" on system menu).
+* Removed Firefox and Thunderbird icons to let original ones to be displayed.
+* Replaced black audio-volume icons with the Oxygen theme version
+  to be visible on black backgrounds.
+* Replaced window-close icon (red instead of orange).
+* Added Logon / session icons.
+* Added XDG places icons.
+
+# 0.2
+
+* Added Wine folder icon ("Browse C: Drive" on system menu).
+* Fixed build files as lxde-icon-theme 0.5.1.
