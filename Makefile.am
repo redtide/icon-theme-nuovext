@@ -448,6 +448,9 @@ install-data-hook:
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/devices/system.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/devices/gnome-fs-client.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/devices/gnome-dev-computer.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/devices/xfce4-display.png
 	$(LN_S) -f media-floppy.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/devices/gnome-dev-floppy.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/devices/media-dvd.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/devices/gtk-cdrom.png
@@ -495,6 +498,10 @@ install-data-hook:
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/categories/package_network.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/categories/redhat-internet.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/categories/applications-internet.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/categories/xfce-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/categories/gnome-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/categories/redhat-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/categories/package_games.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/categories/xfce-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/categories/gnome-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/categories/redhat-graphics.png
@@ -959,6 +966,9 @@ install-data-hook:
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/devices/system.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/devices/gnome-fs-client.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/devices/gnome-dev-computer.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/devices/xfce4-display.png
 	$(LN_S) -f media-floppy.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/devices/gnome-dev-floppy.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/devices/media-dvd.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/devices/gtk-cdrom.png
@@ -1006,6 +1016,10 @@ install-data-hook:
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/categories/package_network.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/categories/redhat-internet.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/categories/applications-internet.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/categories/xfce-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/categories/gnome-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/categories/redhat-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/categories/package_games.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/categories/xfce-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/categories/gnome-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/categories/redhat-graphics.png
@@ -1470,6 +1484,9 @@ install-data-hook:
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/devices/system.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/devices/gnome-fs-client.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/devices/gnome-dev-computer.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/devices/xfce4-display.png
 	$(LN_S) -f media-floppy.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/devices/gnome-dev-floppy.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/devices/media-dvd.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/devices/gtk-cdrom.png
@@ -1517,6 +1534,10 @@ install-data-hook:
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/categories/package_network.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/categories/redhat-internet.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/categories/applications-internet.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/categories/xfce-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/categories/gnome-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/categories/redhat-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/categories/package_games.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/categories/xfce-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/categories/gnome-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/categories/redhat-graphics.png
@@ -1981,6 +2002,9 @@ install-data-hook:
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/devices/system.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/devices/gnome-fs-client.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/devices/gnome-dev-computer.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/devices/xfce4-display.png
 	$(LN_S) -f media-floppy.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/devices/gnome-dev-floppy.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/devices/media-dvd.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/devices/gtk-cdrom.png
@@ -2028,6 +2052,10 @@ install-data-hook:
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/categories/package_network.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/categories/redhat-internet.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/categories/applications-internet.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/categories/xfce-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/categories/gnome-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/categories/redhat-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/categories/package_games.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/categories/xfce-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/categories/gnome-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/categories/redhat-graphics.png
@@ -2492,6 +2520,9 @@ install-data-hook:
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/devices/system.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/devices/gnome-fs-client.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/devices/gnome-dev-computer.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/devices/xfce4-display.png
 	$(LN_S) -f media-floppy.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/devices/gnome-dev-floppy.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/devices/media-dvd.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/devices/gtk-cdrom.png
@@ -2539,6 +2570,10 @@ install-data-hook:
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/categories/package_network.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/categories/redhat-internet.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/categories/applications-internet.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/categories/xfce-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/categories/gnome-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/categories/redhat-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/categories/package_games.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/categories/xfce-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/categories/gnome-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/categories/redhat-graphics.png
@@ -3003,6 +3038,9 @@ install-data-hook:
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/devices/system.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/devices/gnome-fs-client.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/devices/gnome-dev-computer.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/devices/xfce4-display.png
 	$(LN_S) -f media-floppy.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/devices/gnome-dev-floppy.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/devices/media-dvd.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/devices/gtk-cdrom.png
@@ -3050,6 +3088,10 @@ install-data-hook:
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/categories/package_network.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/categories/redhat-internet.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/categories/applications-internet.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/categories/xfce-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/categories/gnome-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/categories/redhat-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/categories/package_games.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/categories/xfce-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/categories/gnome-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/categories/redhat-graphics.png
@@ -3472,6 +3514,9 @@ install-data-hook:
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/devices/system.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/devices/gnome-fs-client.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/devices/gnome-dev-computer.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/devices/xfce4-display.png
 	$(LN_S) -f media-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/devices/media-dvd.png
 	$(LN_S) -f media-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/devices/gtk-cdrom.png
 	$(LN_S) -f ../devices/media-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/gtk-cdrom.png
@@ -3516,6 +3561,10 @@ install-data-hook:
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/categories/package_network.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/categories/redhat-internet.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/categories/applications-internet.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/categories/xfce-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/categories/gnome-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/categories/redhat-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/categories/package_games.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/categories/xfce-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/categories/gnome-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/categories/redhat-graphics.png
@@ -3979,6 +4028,9 @@ install-data-hook:
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/devices/system.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/devices/gnome-fs-client.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/devices/gnome-dev-computer.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/devices/xfce4-display.png
 	$(LN_S) -f media-floppy.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/devices/gnome-dev-floppy.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/devices/media-dvd.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/devices/gtk-cdrom.png
@@ -4026,6 +4078,10 @@ install-data-hook:
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/categories/package_network.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/categories/redhat-internet.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/categories/applications-internet.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/categories/xfce-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/categories/gnome-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/categories/redhat-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/categories/package_games.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/categories/xfce-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/categories/gnome-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/categories/redhat-graphics.png
@@ -4490,6 +4546,9 @@ install-data-hook:
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/devices/system.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/devices/gnome-fs-client.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/devices/gnome-dev-computer.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/devices/xfce4-display.png
 	$(LN_S) -f media-floppy.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/devices/gnome-dev-floppy.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/devices/media-dvd.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/devices/gtk-cdrom.png
@@ -4537,6 +4596,10 @@ install-data-hook:
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/categories/package_network.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/categories/redhat-internet.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/categories/applications-internet.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/categories/xfce-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/categories/gnome-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/categories/redhat-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/categories/package_games.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/categories/xfce-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/categories/gnome-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/categories/redhat-graphics.png
@@ -5001,6 +5064,9 @@ install-data-hook:
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/devices/system.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/devices/gnome-fs-client.png
 	$(LN_S) -f computer.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/devices/gnome-dev-computer.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/devices/xfce4-display.png
 	$(LN_S) -f media-floppy.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/devices/gnome-dev-floppy.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/devices/media-dvd.png
 	$(LN_S) -f drive-optical.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/devices/gtk-cdrom.png
@@ -5048,6 +5114,10 @@ install-data-hook:
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/categories/package_network.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/categories/redhat-internet.png
 	$(LN_S) -f ../apps/internet-web-browser.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/categories/applications-internet.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/categories/xfce-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/categories/gnome-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/categories/redhat-games.png
+	$(LN_S) -f applications-games.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/categories/package_games.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/categories/xfce-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/categories/gnome-graphics.png
 	$(LN_S) -f applications-graphics.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/categories/redhat-graphics.png
@@ -5201,3 +5271,6 @@ install-data-hook:
 	$(LN_S) -f network-transmit.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/status/gnome-netstatus-rx.png
 	$(LN_S) -f network-transmit-receive.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/status/connect_creating.png
 	$(LN_S) -f network-transmit-receive.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/status/gnome-netstatus-txrx.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/256x256/devices/chardevice.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/256x256/devices/display.png
+	$(LN_S) -f video-display.png $(DESTDIR)$(datadir)/icons/nuoveXT23/256x256/devices/xfce4-display.png
