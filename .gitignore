@@ -1,8 +1,2 @@
-Makefile
-Makefile.in
-aclocal.m4
-config.*
-configure
-install-sh
-missing
-*.code-workspace
+/build*/
+*.user*
