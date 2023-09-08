@@ -112,14 +112,15 @@ install-data-hook:
 	$(LN_S) -f ../actions/go-home.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/places/gnome-fs-home.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/folder_new.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/stock_new-dir.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/next.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/gtk-ok.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/dialog-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/forward.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/gtk-apply.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/stock_right.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/gtk-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/gtk-go-back-rtl.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/gtk-go-forward-ltr.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/next.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/stock_right.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/gtk-unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/gtk-indent-rtl.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/48x48/actions/gtk-unindent-ltr.png
@@ -630,14 +631,15 @@ install-data-hook:
 	$(LN_S) -f ../actions/go-home.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/places/gnome-fs-home.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/folder_new.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/stock_new-dir.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/next.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/gtk-ok.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/dialog-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/forward.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/gtk-apply.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/stock_right.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/gtk-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/gtk-go-back-rtl.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/gtk-go-forward-ltr.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/next.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/stock_right.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/gtk-unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/gtk-indent-rtl.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/16x16/actions/gtk-unindent-ltr.png
@@ -1148,14 +1150,15 @@ install-data-hook:
 	$(LN_S) -f ../actions/go-home.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/places/gnome-fs-home.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/folder_new.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/stock_new-dir.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/next.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/gtk-ok.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/dialog-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/forward.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/gtk-apply.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/stock_right.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/gtk-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/gtk-go-back-rtl.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/gtk-go-forward-ltr.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/next.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/stock_right.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/gtk-unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/gtk-indent-rtl.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/22x22/actions/gtk-unindent-ltr.png
@@ -1666,14 +1669,15 @@ install-data-hook:
 	$(LN_S) -f ../actions/go-home.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/places/gnome-fs-home.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/folder_new.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/stock_new-dir.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/next.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/gtk-ok.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/dialog-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/forward.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/gtk-apply.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/stock_right.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/gtk-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/gtk-go-back-rtl.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/gtk-go-forward-ltr.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/next.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/stock_right.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/gtk-unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/gtk-indent-rtl.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/24x24/actions/gtk-unindent-ltr.png
@@ -2184,14 +2188,15 @@ install-data-hook:
 	$(LN_S) -f ../actions/go-home.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/places/gnome-fs-home.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/folder_new.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/stock_new-dir.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/next.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/gtk-ok.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/dialog-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/forward.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/gtk-apply.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/stock_right.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/gtk-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/gtk-go-back-rtl.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/gtk-go-forward-ltr.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/next.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/stock_right.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/gtk-unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/gtk-indent-rtl.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/64x64/actions/gtk-unindent-ltr.png
@@ -2702,14 +2707,15 @@ install-data-hook:
 	$(LN_S) -f ../actions/go-home.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/places/gnome-fs-home.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/folder_new.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/stock_new-dir.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/next.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/gtk-ok.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/dialog-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/forward.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/gtk-apply.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/stock_right.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/gtk-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/gtk-go-back-rtl.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/gtk-go-forward-ltr.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/next.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/stock_right.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/gtk-unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/gtk-indent-rtl.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/72x72/actions/gtk-unindent-ltr.png
@@ -3212,14 +3218,15 @@ install-data-hook:
 	$(LN_S) -f ../actions/go-home.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/places/gnome-fs-home.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/folder_new.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/stock_new-dir.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/next.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/gtk-ok.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/dialog-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/forward.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/gtk-apply.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/stock_right.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/gtk-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/gtk-go-back-rtl.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/gtk-go-forward-ltr.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/next.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/stock_right.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/gtk-unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/stock_text_unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/36x36/actions/gnome-stock-text-unindent.png
@@ -3692,14 +3699,15 @@ install-data-hook:
 	$(LN_S) -f ../actions/go-home.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/places/gnome-fs-home.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/folder_new.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/stock_new-dir.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/next.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/gtk-ok.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/dialog-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/forward.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/gtk-apply.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/stock_right.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/gtk-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/gtk-go-back-rtl.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/gtk-go-forward-ltr.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/next.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/stock_right.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/gtk-unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/gtk-indent-rtl.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/32x32/actions/gtk-unindent-ltr.png
@@ -4210,14 +4218,15 @@ install-data-hook:
 	$(LN_S) -f ../actions/go-home.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/places/gnome-fs-home.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/folder_new.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/stock_new-dir.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/next.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/gtk-ok.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/dialog-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/forward.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/gtk-apply.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/stock_right.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/gtk-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/gtk-go-back-rtl.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/gtk-go-forward-ltr.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/next.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/stock_right.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/gtk-unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/gtk-indent-rtl.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/128x128/actions/gtk-unindent-ltr.png
@@ -4728,14 +4737,15 @@ install-data-hook:
 	$(LN_S) -f ../actions/go-home.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/places/gnome-fs-home.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/folder_new.png
 	$(LN_S) -f folder-new.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/stock_new-dir.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/next.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/gtk-ok.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/dialog-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/forward.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/gtk-apply.png
-	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/stock_right.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/gtk-ok.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/gtk-go-back-rtl.png
 	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/gtk-go-forward-ltr.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/gtk-yes.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/next.png
+	$(LN_S) -f go-next.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/stock_right.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/gtk-unindent.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/gtk-indent-rtl.png
 	$(LN_S) -f format-indent-less.png $(DESTDIR)$(datadir)/icons/nuoveXT23/96x96/actions/gtk-unindent-ltr.png
