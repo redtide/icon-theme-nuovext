@@ -5,6 +5,8 @@ a lxde-icon-theme modification.
 
 ## Installation
 
-* ./autogen.sh
-* ./configure
-* make install (using sudo or as root, to install in /usr/local/share/icons)
+```sh
+cmake -B build -D CMAKE_INSTALL_PREFIX=/usr
+cmake --build build --verbose
+DESTDIR=$(pwd)/package cmake --install build
+```
